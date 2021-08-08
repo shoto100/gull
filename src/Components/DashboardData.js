@@ -34,7 +34,7 @@ const DashboardData = (props) => {
     const {Icon, Title, count, color, bgColor} = allCardData;
     console.log(allCardData);
     return (
-        <Grid item xs={3}>
+        <Grid item xs={12} sm={6} md={3}>
             <Card item xs={12} sm={12} md={6} lg={3} key='' style={{ backgroundColor: "#fff", borderRadius: "25px", boxShadow: "none"}}>
               <CardItem>
                 <IconDiv style={{ background: bgColor }}>

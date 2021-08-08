@@ -22,12 +22,12 @@ const Layout = ({ children}) => {
     return (
       <Box sx={{ flexGrow: 1, }}>
         <Grid container spacing={0} sx={{height: "100vh" }}>
-          <Grid item xs={1} md={1} sx={{backgroundColor: '#663399', textAlign: 'center'}}>
+          <Grid item xs={3} sm={2} md={1} sx={{backgroundColor: '#663399', textAlign: 'center'}}>
             <ItemSidebar>
                 <Sidebar></Sidebar>
               </ItemSidebar>
           </Grid>
-          <Grid item xs={11} md={11} sx={{backgroundColor: '#f1f3f4',}}>
+          <Grid item xs={9} sm={10} md={11} sx={{backgroundColor: '#f1f3f4',}}>
             <ItemContent>
                 <Navbar></Navbar>
                 <Content>
